@@ -4,6 +4,7 @@
 # Keep .gitignore and the API folder
 !.gitignore
 !api/
+!api/**
 
 # Virtualenv
 .venv/
