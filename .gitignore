@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Keep .gitignore and the API folder
+!.gitignore
+!api/
+
+# Virtualenv
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
