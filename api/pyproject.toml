@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+exclude = '''
+/(
+  \.venv
+  | build
+  | dist
+  | \.git
+  | __pycache__
+)/
+'''
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = [".venv", "build", "dist", ".git", "__pycache__"]
+
+[tool.ruff.rules]
+# Use defaults; tune later if needed
+
